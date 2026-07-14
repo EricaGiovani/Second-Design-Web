@@ -1,1 +1,130 @@
-/* code-here */
+:root {
+  --color-button: #421abc;
+  --color-main: #fdfdfd;
+  --color-second: #717680;
+  --color-inside-button: #ffffff;
+  --color-background: #000000;
+  --color-background-sec: #210A5E;
+  --font-family: 'Inter', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-background);
+}
+nav{
+  width:394px;
+  height:64px;
+  justify-content: space-between;
+  align-items:center;
+  padding:24px 16px;
+  font-family:var(--font-family);
+  display:flex;
+  
+}
+.tech{
+  width:65px;
+  height:36px;
+  font-weight:700;
+  font-size:24px;
+  color:var(--color-main);
+  line-height:36px;
+  letter-spacing: 0%;
+  
+}
+
+.hamburger-btn{
+  color:var(--color-main);
+  display:flex;
+  align-items:center;
+}
+.hamburger-btn img{
+  width:24px;
+  height:24px;
+  display:block;
+  
+}
+#menu-toggle{
+  display: none;
+
+}
+.mobile-menu{
+  position:fixed;
+  top:0;
+  right:-100%;
+  width:394px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  padding:24px 16px;
+  z-index:999;
+  background-color:var(--color-background);
+}
+.menu-header{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width:361px;
+  height:24px;
+  gap:8px;
+}
+.menu-header .tech{
+  height:24px;
+  line-height:24px;
+}
+.close-btn{
+  color:var(--color-main);
+  font-size:20px;
+  cursor:pointer;
+}
+.mobile-menu ul{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  width:361px;
+  gap:12px;
+  margin-top:80px;
+  margin-bottom:32px;
+}
+#menu-toggle:checked ~ .mobile-menu{
+  right:0;
+}
+
+.mobile-menu ul li{
+  display:flex;
+  align-items:center;
+  width:361px;
+  height:36px;
+  padding:8px 0;
+  border-radius: 999px;
+  gap:6px;
+  font-family:var(--font-family);
+  font-size:16px;
+  font-weight:500;
+  color:var(--color-main);
+
+}
+.contact-btn{
+  width:361px;
+  height:48px;
+  border-radius:999px;
+  background-color:var(--color-button);
+  border:1px solid var(--color-button);
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  
+}
+.contact-paragraph{
+color:var(--color-inside-button);
+width:76px;
+height:28px;
+font-family:var(--font-family);
+font-weight:600;
+font-size:14px;
+line-height:28px;
+
+}
