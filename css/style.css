@@ -7,6 +7,7 @@
   --color-background-sec: #210A5E;
   --font-family: 'Inter', sans-serif;
   --color-border:#181D27;
+  --color-border-second:#252B37;
 }
 * {
   margin: 0;
@@ -457,4 +458,115 @@ span{
   line-height:28px;
   text-align:center;
   margin-bottom:14px;
+}
+.collaborate{
+  width:393px;
+  padding:40px 20px;
+  gap:24px;
+  display:flex;
+  flex-direction:column;
+}
+.collaborate-text{
+  width:353px;
+  gap:8px;
+  display:flex;
+  flex-direction:column;
+}
+.collaborate-title{
+  width:353px;
+  font-family:var(--font-family);
+  font-weight:700;
+  font-style:bold;
+  font-size:28px;
+  line-height:38px;
+  letter-spacing:-2%;
+  text-align:center;
+  color:var(--color-main);
+}
+.collaborate-paragraph{
+  width:353px;
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:16px;
+  line-height:30px;
+  letter-spacing:-3%;
+  text-align:center;
+  color:var(--color-second);
+}
+.collaborate-form{
+  width: 353px;
+  gap:32px;
+  display:flex;
+  flex-direction:column;
+}
+.input-fields{
+  width:353px;
+  gap:16px;
+  display:flex;
+  flex-direction:column;
+}
+.input-field{
+  width:353px;
+  gap: 8px;
+  display:flex;
+  flex-direction:column;
+}
+.input-label{
+  width:353px;
+  font-family:var(--font-family);
+  font-weight:700;
+  font-style:bold;
+  font-size:14px;
+  line-height:28px;
+  color:var(--color-main);
+}
+.name-input,.email-input{
+  width:353px;
+  height:48px;
+  border-radius:12px;
+  border:1px solid var(--color-border-second);
+  padding:8px 16px;
+  background-color:var(--color-background);
+  color:var(--color-main);
+}
+.message-input{
+  width:353px;
+  height:134px;
+  border-radius:12px;
+  border:1px solid var(--color-border-second);
+  padding:8px 16px;
+  background-color:var(--color-background);
+  resize:none;
+  overflow-x:hidden;
+  overflow-y:auto;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  color:var(--color-main);
+}
+::placeholder{
+  width: 321px;
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:16px;
+  line-height:30px;
+  color:var(--color-second);
+  letter-spacing:-3%;
+}
+.send-btn{
+  width:353px;
+  border-radius:999px;
+  padding:8px;
+  gap:4px;
+  display:flex;
+  flex-direction:column;
+  border:1px solid var(--color-button);
+  background-color:var(--color-button);
+}
+.send-btn p{
+  color:var(--color-inside-button);
+  font-size:14px;
+  font-family:var(--font-family);
+  font-weight:600;
+  line-height:28px;
+  text-align:center;
 }
