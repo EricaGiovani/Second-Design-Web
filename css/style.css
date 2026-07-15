@@ -570,3 +570,19 @@ span{
   line-height:28px;
   text-align:center;
 }
+footer{
+  width:393px;
+  border-top:1px solid var(--color-border);
+  padding:24px 8px;
+  gap:8px;
+  display:flex;
+  flex-direction:column;
+}
+footer p{
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:12px;
+  line-height:24px;
+  text-align:center;
+  color:var(--color-second);
+}
