@@ -104,7 +104,7 @@ nav{
   color:var(--color-main);
 
 }
-.contact-btn{
+.mobile-contact-btn{
   width:361px;
   height:48px;
   border-radius:999px;
@@ -122,6 +122,9 @@ font-weight:600;
 font-size:14px;
 line-height:28px;
 text-align:center;
+}
+.desktop-menu,.desktop-contact-btn{
+  display:none;
 }
 .hero{
   width:394px;
@@ -583,4 +586,46 @@ footer p{
   line-height:24px;
   text-align:center;
   color:var(--color-second);
+}
+
+@media screen and (min-width:1025px){
+  nav{
+    width:100%;
+    max-width:1440px;
+    height:84px;
+    margin:0 auto;
+    padding:0 140px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .tech{
+    font-weight:700;
+    font-size:24px;
+    line-height:36px;
+  }
+  .desktop-menu{
+    display:flex;
+    gap:12px;
+    list-style:none;
+    align-items:center;
+  }
+  .desktop-menu li{
+    color:var(--color-main);
+    font-size:14px;
+    font-weight:400;
+  }
+  .desktop-contact-btn{
+    width:160px;
+    height:44px;
+    border-radius:999px;
+    background-color:var(--color-button);
+    border:1px solid var(--color-button);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .hamburger-btn,.mobile-menu,#menu-toggle{
+    display:none;
+  }
 }
