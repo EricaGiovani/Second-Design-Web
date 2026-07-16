@@ -951,4 +951,120 @@ span{
   text-align:center;
   margin-bottom:16px;
 } 
+.collaborate{
+  width:100%;
+  padding-top:80px;
+  padding-bottom:120px;
+  padding-left:140px;
+  padding-right:140px;
+  gap:64px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.collaborate-text{
+  width:1160px;
+  gap:16px;
+  display:flex;
+  flex-direction:column;
+}
+.collaborate-title{
+  width:1160px;
+  font-family:var(--font-family);
+  font-weight:700;
+  font-style:bold;
+  font-size:40px;
+  line-height:56px;
+  letter-spacing:-0.03em;
+  text-align:center;
+  color:var(--color-main);
+}
+.collaborate-paragraph{
+  width:1160px;
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:18px;
+  line-height:32px;
+  letter-spacing:-0.03em;
+  text-align:center;
+  color:var(--color-second);
+}
+.collaborate-form{
+  width: 592px;
+  gap:40px;
+  display:flex;
+  flex-direction:column;
+  
+}
+.input-fields{
+  width:592px;
+  gap:20px;
+  display:flex;
+  flex-direction:column;
+}
+.input-field{
+  width:592px;
+  gap: 6px;
+  display:flex;
+  flex-direction:column;
+}
+.input-label{
+  width:592px;
+  font-family:var(--font-family);
+  font-weight:700;
+  font-style:bold;
+  font-size:14px;
+  line-height:28px;
+  color:var(--color-main);
+}
+.name-input,.email-input{
+  width:592px;
+  height:48px;
+  border-radius:12px;
+  border:1px solid var(--color-border-second);
+  padding:8px 16px;
+  background-color:var(--color-background);
+  color:var(--color-main);
+}
+.message-input{
+  width:592px;
+  height:134px;
+  border-radius:12px;
+  border:1px solid var(--color-border-second);
+  padding:8px 16px;
+  background-color:var(--color-background);
+  resize:none;
+  overflow-x:hidden;
+  overflow-y:auto;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  color:var(--color-main);
+}
+::placeholder{
+  width: 560px;
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:16px;
+  line-height:30px;
+  color:var(--color-second);
+  letter-spacing:-0.03em;
+}
+.send-btn{
+  width:592px;
+  border-radius:9999px;
+  padding:8px;
+  gap:4px;
+  display:flex;
+  flex-direction:column;
+  border:1px solid var(--color-button);
+  background-color:var(--color-button);
+}
+.send-btn p{
+  color:var(--color-inside-button);
+  font-size:16px;
+  font-family:var(--font-family);
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+} 
 }
