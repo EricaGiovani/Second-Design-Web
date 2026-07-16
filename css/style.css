@@ -1067,4 +1067,20 @@ span{
   line-height:30px;
   text-align:center;
 } 
+footer{
+  width:100%;
+  border-top:1px solid var(--color-border);
+  padding:24px 8px;
+  gap:8px;
+  display:flex;
+  flex-direction:column;
+}
+footer p{
+  font-family:var(--font-family);
+  font-weight:400;
+  font-size:16px;
+  line-height:30px;
+  text-align:center;
+  color:var(--color-second);
+}
 }
