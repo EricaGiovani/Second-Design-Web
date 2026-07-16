@@ -691,4 +691,37 @@ footer p{
     object-fit:contain;
     display:block;
   }
+  .whoweare{
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    padding:80px 140px;
+    gap:32px;
+    display:flex;
+    flex-direction:column;
+  }
+  .whoweare-title{
+  width:1160px;
+  font-size:40px;
+  line-height:56px;
+  letter-spacing:-0.03em;
+  text-align:center;
+  color:var(--color-main);
+  font-weight:700;
+  font-family:var(--font-family);
+  font-style:bold;
+  }
+  .whoweare-paragraph{
+  width:1160px;
+  font-weight:600;
+  font-size:32px;
+  line-height:42px;
+  text-align:center;
+  font-family:var(--font-family);
+  color:var(--color-main);
+}
+span{
+  color:var(--color-second);
+  font-weight:600;
+}
 }
