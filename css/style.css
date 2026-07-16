@@ -32,7 +32,6 @@ nav{
   font-size:24px;
   color:var(--color-main);
   line-height:36px;
-  letter-spacing: 0%;
   
 }
 
@@ -156,7 +155,7 @@ text-align:center;
   font-size:40px;
   line-height:48px;
   font-style:italic;
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
   color:var(--color-main);
   margin-bottom:16px;
 }
@@ -167,7 +166,7 @@ text-align:center;
   font-weight:400;
   font-family:var(--font-family);
   line-height:30px;
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
   margin-bottom:16px;
 }
 .hero-button{
@@ -189,7 +188,6 @@ text-align:center;
   font-weight:600;
   font-size:14px;
   line-height:28px;
-  letter-spacing:0%;
 }
 .hero-image{
   width:306.47px;
@@ -216,7 +214,7 @@ text-align:center;
   font-size:28px;
   line-height:38px;
   margin-bottom:28px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   text-align:center;
   color:var(--color-main);
 }
@@ -254,7 +252,7 @@ span{
   font-size:28px;
   font-style:bold;
   line-height:38px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   text-align:center;
 }
 .whatwedo-paragraph1{
@@ -332,7 +330,7 @@ span{
   font-weight:700;
   font-style:bold;
   line-height:38px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   text-align:center;
 }
 .ourwork-paragraph{
@@ -343,7 +341,7 @@ span{
   font-weight:400;
   line-height:30px;
   margin-bottom:16px;
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
   text-align:center;
   margin-bottom:28px;
 }
@@ -381,7 +379,7 @@ span{
   font-size:16px;
   line-height:30px;
   margin:16px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
 }
 .team{
   width:393px;
@@ -403,7 +401,7 @@ span{
   font-weight:700;
   font-style:bold;
   font-size:28px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   line-height:38px;
   text-align:center;
 }
@@ -413,7 +411,7 @@ span{
   color:var(--color-second);
   font-weight:400;
   font-size:16px;
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
   line-height:30px;
   text-align:center;
 }
@@ -445,7 +443,7 @@ span{
   font-weight:700;
   font-style:bold;
   font-size:16px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   line-height:30px;
   text-align:center;
 }
@@ -479,7 +477,7 @@ span{
   font-style:bold;
   font-size:28px;
   line-height:38px;
-  letter-spacing:-2%;
+  letter-spacing:-0.02em;
   text-align:center;
   color:var(--color-main);
 }
@@ -489,7 +487,7 @@ span{
   font-weight:400;
   font-size:16px;
   line-height:30px;
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
   text-align:center;
   color:var(--color-second);
 }
@@ -550,7 +548,7 @@ span{
   font-size:16px;
   line-height:30px;
   color:var(--color-second);
-  letter-spacing:-3%;
+  letter-spacing:-0.03em;
 }
 .send-btn{
   width:353px;
